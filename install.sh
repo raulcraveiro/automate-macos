@@ -36,7 +36,6 @@ brew install --cask discord
 brew install --cask figma
 brew install --cask firefox
 brew install --cask forecast
-brew install --cask gimp
 brew install --cask google-chrome
 brew install --cask google-drive
 brew install --cask hiddenbar
