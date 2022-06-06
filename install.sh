@@ -41,7 +41,6 @@ brew install --cask google-drive
 brew install --cask hiddenbar
 brew install --cask iina
 brew install --cask imageoptim
-brew install --cask itch
 brew install --cask keycastr
 brew install --cask microsoft-edge
 brew install --cask notion
