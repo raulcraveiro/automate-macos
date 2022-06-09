@@ -115,6 +115,7 @@ brew install font-roboto-serif
 brew install font-rubik
 brew install font-source-sans-pro
 brew install font-source-serif-pro
+brew install font-source-code-pro
 brew install font-ubuntu
 brew install font-ubuntu-condensed
 brew install font-ubuntu-mono
@@ -129,6 +130,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 #Fazer o Oh My Zsh atualizar automaticamente
 echo "zstyle ':omz:update' mode auto" >> ~/.zshrc
+
+#Remover o título que o Oh My Zsh adiciona no terminal
+echo "DISABLE_AUTO_TITLE='true'" >> ~/.zshrc
 
 #Fazer o Homebrew atualizar automaticamente 
 brew autoupdate start --upgrade --cleanup
