@@ -37,46 +37,40 @@ brew install --cask figma
 brew install --cask firefox
 brew install --cask forecast
 brew install --cask google-chrome
-brew install --cask google-drive
 brew install --cask hiddenbar
 brew install --cask iina
-brew install --cask imageoptim
-brew install --cask keycastr
 brew install --cask microsoft-edge
 brew install --cask notion
 brew install --cask nvidia-geforce-now
 brew install --cask obs
-brew install --cask parallels
-brew install --cask parsec
+brew install --cask utm
 brew install --cask pictogram
-brew install --cask pocket-casts
 brew install --cask raycast
 brew install --cask spark-ar-studio
-brew install --cask spotify
 brew install --cask steam
 brew install --cask telegram
-brew install --cask todoist
 brew install --cask visual-studio-code
 brew install --cask whatsapp
-brew install --cask blackhole-2ch
-brew install --cask logitech-g-hub
+brew install --cask free-download-manager
+brew install --cask logi-options-plus
+
+
 brew install docker
-brew install node
+brew install node@16
+brew install ffmpeg
 brew install neofetch
-brew install scrcpy
 brew install yt-dlp
+brew install zsh-autosuggestions
 
 #Instalar todos os aplicativos da Mac App Store
 mas install 1569813296  # 1Password for Safari
-mas install 1423210932  # Flow 
 mas install 1545870783  # Color Picker
-mas install 1351639930  # Gifski   
-mas install 824171161   # Affinity Designer 
+mas install 1616831348  # Affinity Designer 2
 mas install 409201541   # Pages 
 mas install 409183694   # Keynote  
 mas install 409203825   # Numbers   
 mas install 1289583905  # Pixelmator Pro 
-mas install 1278508951  # Trello
+mas install 937984704   # Amphetamine
 
 #Instalar todas as fontes
 brew install font-bebas-neue 
@@ -122,7 +116,7 @@ brew install font-ubuntu-mono
 brew install font-work-sans
 
 ## Softwares que não tem como ser instalados via script
-#iOS: 17Track, ACNH.Guide e Trakt
+#iOS: ACNH.Guide e Trakt
 #macOS: Davinci Resolve, PS Remote Play, Tinkertool
 
 #Instalar o Oh My Zsh
@@ -133,9 +127,6 @@ echo "zstyle ':omz:update' mode auto" >> ~/.zshrc
 
 #Remover o título que o Oh My Zsh adiciona no terminal
 echo "DISABLE_AUTO_TITLE='true'" >> ~/.zshrc
-
-#Fazer o Homebrew atualizar automaticamente 
-brew autoupdate start --upgrade --cleanup
 
 #Mudar o emoji do Homebrew, só pra deixar mais personalizado
 export HOMEBREW_INSTALL_BADGE="🎉"
