@@ -53,6 +53,9 @@ brew install --cask visual-studio-code
 brew install --cask whatsapp
 brew install --cask free-download-manager
 brew install --cask logi-options-plus
+brew install --cask aethersx2
+brew install --cask ppsspp
+brew install --cask prismlauncher
 
 
 brew install docker
