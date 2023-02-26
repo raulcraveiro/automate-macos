@@ -15,19 +15,20 @@ if [[ ${BREWINSTALLED} == "" ]]; then
   echo "Instalando o homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   #Adicionando o Homebrew no PATH para Apple Silicon
-  echo "eval '$(/opt/homebrew/bin/brew shellenv)'" >> ~/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"
+  #echo "eval '$(/opt/homebrew/bin/brew shellenv)'" >> ~/.zprofile
+  #eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 #Instalar repositórios
 brew tap homebrew/cask
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-drivers
+brew tap homebrew/cask-versions
 
 #Instalar o MAS para instalar softwares da Mac App Store
 brew install mas
 
-#Instalar todos os aplicativos utilizados
+#Instalar todos os aplicativos GUI
 brew install --cask 1password
 brew install --cask 8bitdo-ultimate-software
 brew install --cask appcleaner
@@ -48,16 +49,20 @@ brew install --cask pictogram
 brew install --cask raycast
 brew install --cask spark-ar-studio
 brew install --cask steam
+brew install --cask origin
+brew install --cask aethersx2
+brew install --cask ppsspp
+brew install --cask prismlauncher
+brew install --cask dolphin-beta
+brew install --cask heroic
 brew install --cask telegram
 brew install --cask visual-studio-code
 brew install --cask whatsapp
 brew install --cask free-download-manager
 brew install --cask logi-options-plus
-brew install --cask aethersx2
-brew install --cask ppsspp
-brew install --cask prismlauncher
+brew install --cask altserver
 
-
+#Instalar todos os aplicativos CLI
 brew install docker
 brew install node@16
 brew install ffmpeg
@@ -74,6 +79,11 @@ mas install 409183694   # Keynote
 mas install 409203825   # Numbers   
 mas install 1289583905  # Pixelmator Pro 
 mas install 937984704   # Amphetamine
+mas install 1586435171  # Actions
+mas install 1278508951  # Trello
+mas install 899247664   # Testflight
+mas install 1568924476  # Mela
+mas install 639968404   # Parcel
 
 #Instalar todas as fontes
 brew install font-bebas-neue 
@@ -119,8 +129,8 @@ brew install font-ubuntu-mono
 brew install font-work-sans
 
 ## Softwares que não tem como ser instalados via script
-#iOS: ACNH.Guide e Trakt
-#macOS: Davinci Resolve, PS Remote Play, Tinkertool
+#iOS: Trakt
+#macOS: Davinci Resolve, PS Remote Play, Tinkertool, Duckstation, Cemu
 
 #Instalar o Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
