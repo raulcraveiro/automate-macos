@@ -15,8 +15,8 @@ if [[ ${BREWINSTALLED} == "" ]]; then
   echo "Instalando o homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   #Adicionando o Homebrew no PATH para Apple Silicon
-  #echo "eval '$(/opt/homebrew/bin/brew shellenv)'" >> ~/.zprofile
-  #eval "$(/opt/homebrew/bin/brew shellenv)"
+  echo "eval '$(/opt/homebrew/bin/brew shellenv)'" >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 #Instalar repositórios
