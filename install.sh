@@ -40,7 +40,6 @@ brew install --cask forecast
 brew install --cask google-chrome
 brew install --cask hiddenbar
 brew install --cask iina
-brew install --cask microsoft-edge
 brew install --cask notion
 brew install --cask nvidia-geforce-now
 brew install --cask obs
@@ -50,20 +49,17 @@ brew install --cask raycast
 brew install --cask spark-ar-studio
 brew install --cask steam
 brew install --cask origin
-brew install --cask aethersx2
-brew install --cask ppsspp
-brew install --cask prismlauncher
 brew install --cask dolphin-beta
 brew install --cask heroic
 brew install --cask telegram
 brew install --cask visual-studio-code
+brew install --cask docker
 brew install --cask whatsapp
 brew install --cask free-download-manager
 brew install --cask logi-options-plus
 brew install --cask altserver
 
 #Instalar todos os aplicativos CLI
-brew install docker
 brew install node@16
 brew install ffmpeg
 brew install neofetch
@@ -130,7 +126,7 @@ brew install font-work-sans
 
 ## Softwares que não tem como ser instalados via script
 #iOS: Trakt
-#macOS: Davinci Resolve, PS Remote Play, Tinkertool, Duckstation, Cemu
+#macOS: Davinci Resolve, PS Remote Play, Tinkertool, Duckstation, Cemu, MacGPT, Reeder
 
 #Instalar o Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
