@@ -68,7 +68,7 @@ brew install zsh-autosuggestions
 
 #Instalar todos os aplicativos da Mac App Store
 mas install 1569813296  # 1Password for Safari
-mas install 1545870783  # Color Picker
+#mas install 1545870783  # Color Picker
 mas install 1616831348  # Affinity Designer 2
 mas install 409201541   # Pages 
 mas install 409183694   # Keynote  
@@ -136,9 +136,6 @@ echo "zstyle ':omz:update' mode auto" >> ~/.zshrc
 
 #Remover o título que o Oh My Zsh adiciona no terminal
 echo "DISABLE_AUTO_TITLE='true'" >> ~/.zshrc
-
-#Mudar o emoji do Homebrew, só pra deixar mais personalizado
-export HOMEBREW_INSTALL_BADGE="🎉"
 
 #Adicionar o comando "code ." no terminal
 cat << EOF >> ~/.zprofile
