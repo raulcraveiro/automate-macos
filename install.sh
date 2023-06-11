@@ -30,7 +30,6 @@ brew install mas
 
 #Instalar todos os aplicativos GUI
 brew install --cask 1password
-brew install --cask 8bitdo-ultimate-software
 brew install --cask appcleaner
 brew install --cask crossover
 brew install --cask discord
@@ -49,7 +48,6 @@ brew install --cask raycast
 brew install --cask spark-ar-studio
 brew install --cask steam
 brew install --cask origin
-brew install --cask dolphin-beta
 brew install --cask heroic
 brew install --cask telegram
 brew install --cask visual-studio-code
@@ -57,7 +55,6 @@ brew install --cask docker
 brew install --cask whatsapp
 brew install --cask free-download-manager
 brew install --cask logi-options-plus
-brew install --cask altserver
 
 #Instalar todos os aplicativos CLI
 brew install node@16
