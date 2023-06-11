@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 CURRDIR="pwd"
 BREWINSTALLED="which brew"
