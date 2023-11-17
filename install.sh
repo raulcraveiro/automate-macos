@@ -31,28 +31,16 @@ brew install mas
 #Instalar todos os aplicativos GUI
 brew install --cask 1password
 brew install --cask appcleaner
-brew install --cask crossover
 brew install --cask discord
 brew install --cask figma
 brew install --cask firefox
 brew install --cask forecast
 brew install --cask google-chrome
-brew install --cask hiddenbar
 brew install --cask iina
 brew install --cask notion
-brew install --cask nvidia-geforce-now
 brew install --cask obs
 brew install --cask utm
-brew install --cask pictogram
-brew install --cask raycast
-brew install --cask spark-ar-studio
-brew install --cask steam
-brew install --cask origin
-brew install --cask heroic
-brew install --cask telegram
 brew install --cask visual-studio-code
-brew install --cask docker
-brew install --cask whatsapp
 brew install --cask free-download-manager
 brew install --cask logi-options-plus
 
@@ -65,18 +53,16 @@ brew install zsh-autosuggestions
 
 #Instalar todos os aplicativos da Mac App Store
 mas install 1569813296  # 1Password for Safari
-#mas install 1545870783  # Color Picker
 mas install 1616831348  # Affinity Designer 2
 mas install 409201541   # Pages 
 mas install 409183694   # Keynote  
 mas install 409203825   # Numbers   
 mas install 1289583905  # Pixelmator Pro 
-mas install 937984704   # Amphetamine
 mas install 1586435171  # Actions
 mas install 1278508951  # Trello
 mas install 899247664   # Testflight
-mas install 1568924476  # Mela
 mas install 639968404   # Parcel
+mas install 310633997   # WhatsApp Messenger
 
 #Instalar todas as fontes
 brew install font-bebas-neue 
@@ -123,7 +109,7 @@ brew install font-work-sans
 
 ## Softwares que não tem como ser instalados via script
 #iOS: Trakt
-#macOS: Davinci Resolve, PS Remote Play, Tinkertool, Duckstation, Cemu, MacGPT, Reeder
+#macOS: Davinci Resolve, Tinkertool, Reeder
 
 #Instalar o Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
