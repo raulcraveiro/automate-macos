@@ -20,10 +20,7 @@ if [[ ${BREWINSTALLED} == "" ]]; then
 fi
 
 #Instalar repositórios
-brew tap homebrew/cask
 brew tap homebrew/cask-fonts
-brew tap homebrew/cask-drivers
-brew tap homebrew/cask-versions
 
 #Instalar o MAS para instalar softwares da Mac App Store
 brew install mas
@@ -31,24 +28,27 @@ brew install mas
 #Instalar todos os aplicativos GUI
 brew install --cask 1password
 brew install --cask appcleaner
+brew install --cask arc
 brew install --cask discord
 brew install --cask figma
 brew install --cask firefox
 brew install --cask forecast
 brew install --cask google-chrome
 brew install --cask iina
+brew install --cask logi-options-plus
 brew install --cask notion
 brew install --cask obs
+brew install --cask rectangle
 brew install --cask utm
 brew install --cask visual-studio-code
 brew install --cask free-download-manager
-brew install --cask logi-options-plus
+brew install --cask transmission
 
 #Instalar todos os aplicativos CLI
 brew install node@16
 brew install ffmpeg
-brew install neofetch
 brew install yt-dlp
+brew install gifsicle
 brew install zsh-autosuggestions
 
 #Instalar todos os aplicativos da Mac App Store
@@ -63,9 +63,11 @@ mas install 1278508951  # Trello
 mas install 899247664   # Testflight
 mas install 639968404   # Parcel
 mas install 310633997   # WhatsApp Messenger
+mas install 302584613   # Kindle
 
 #Instalar todas as fontes
 brew install font-bebas-neue 
+brew install font-dm-serif-display
 brew install font-fira-code
 brew install font-fira-mono
 brew install font-fira-sans
@@ -78,6 +80,7 @@ brew install font-ibm-plex-sans-condensed
 brew install font-ibm-plex-serif 
 brew install font-inter 
 brew install font-lato  
+brew install font-libre-baskerville
 brew install font-merriweather
 brew install font-merriweather-sans
 brew install font-montserrat
@@ -109,13 +112,10 @@ brew install font-work-sans
 
 ## Softwares que não tem como ser instalados via script
 #iOS: Trakt
-#macOS: Davinci Resolve, Tinkertool, Reeder
+#macOS: Davinci Resolve, Tinkertool, Reeder, motionVFX
 
 #Instalar o Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-#Fazer o Oh My Zsh atualizar automaticamente
-echo "zstyle ':omz:update' mode auto" >> ~/.zshrc
 
 #Remover o título que o Oh My Zsh adiciona no terminal
 echo "DISABLE_AUTO_TITLE='true'" >> ~/.zshrc
