@@ -30,13 +30,16 @@ brew install --cask 1password
 brew install --cask appcleaner
 brew install --cask discord
 brew install --cask figma
+brew install --cask affinity
 brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask iina
 brew install --cask logi-options-plus
 brew install --cask notion
+brew install --cask obsidian
 brew install --cask obs
 brew install --cask transmission
+brew install --cask localsend
 
 #Instalar todos os aplicativos CLI
 brew install node@16
@@ -101,7 +104,6 @@ brew install font-ubuntu-mono
 brew install font-work-sans
 
 ## Softwares que não tem como ser instalados via script
-#iOS: Trakt
 #macOS: Davinci Resolve, Tinkertool, Reeder, motionVFX
 
 #Instalar o Oh My Zsh
