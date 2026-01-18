@@ -28,20 +28,14 @@ brew install mas
 #Instalar todos os aplicativos GUI
 brew install --cask 1password
 brew install --cask appcleaner
-brew install --cask arc
 brew install --cask discord
 brew install --cask figma
 brew install --cask firefox
-brew install --cask forecast
 brew install --cask google-chrome
 brew install --cask iina
 brew install --cask logi-options-plus
 brew install --cask notion
 brew install --cask obs
-brew install --cask rectangle
-brew install --cask utm
-brew install --cask visual-studio-code
-brew install --cask free-download-manager
 brew install --cask transmission
 
 #Instalar todos os aplicativos CLI
@@ -53,17 +47,13 @@ brew install zsh-autosuggestions
 
 #Instalar todos os aplicativos da Mac App Store
 mas install 1569813296  # 1Password for Safari
-mas install 1616831348  # Affinity Designer 2
 mas install 409201541   # Pages 
 mas install 409183694   # Keynote  
 mas install 409203825   # Numbers   
 mas install 1289583905  # Pixelmator Pro 
-mas install 1586435171  # Actions
 mas install 1278508951  # Trello
-mas install 899247664   # Testflight
 mas install 639968404   # Parcel
 mas install 310633997   # WhatsApp Messenger
-mas install 302584613   # Kindle
 
 #Instalar todas as fontes
 brew install font-bebas-neue 
