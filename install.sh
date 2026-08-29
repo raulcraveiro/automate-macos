@@ -29,27 +29,26 @@ brew install mas
 brew install --cask 1password
 brew install --cask appcleaner
 brew install --cask discord
-brew install --cask figma
-brew install --cask affinity
 brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask iina
-brew install --cask logi-options-plus
-brew install --cask notion
+brew install --cask openlogi
 brew install --cask obsidian
 brew install --cask obs
 brew install --cask transmission
 brew install --cask localsend
+brew install --cask raycast
+brew install --cask netnewswire
+brew install --cask slack
+brew install --cask utm
 
 #Instalar todos os aplicativos CLI
-brew install node@16
 brew install ffmpeg
 brew install yt-dlp
-brew install gifsicle
-brew install zsh-autosuggestions
+brew install mole
+brew install mattbirchler/tap/quicksubs
 
 #Instalar todos os aplicativos da Mac App Store
-mas install 1569813296  # 1Password for Safari
 mas install 409201541   # Pages 
 mas install 409183694   # Keynote  
 mas install 409203825   # Numbers   
@@ -105,18 +104,6 @@ brew install font-work-sans
 
 ## Softwares que não tem como ser instalados via script
 #macOS: Davinci Resolve, Tinkertool, Reeder, motionVFX
-
-#Instalar o Oh My Zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-#Remover o título que o Oh My Zsh adiciona no terminal
-echo "DISABLE_AUTO_TITLE='true'" >> ~/.zshrc
-
-#Adicionar o comando "code ." no terminal
-cat << EOF >> ~/.zprofile
-# Add Visual Studio Code (code)
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-EOF
 
 #Limpar o que restou das instalações
 brew autoremove
