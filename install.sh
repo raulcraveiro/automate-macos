@@ -19,9 +19,6 @@ if [[ ${BREWINSTALLED} == "" ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-#Instalar repositórios
-brew tap homebrew/cask-fonts
-
 #Instalar o MAS para instalar softwares da Mac App Store
 brew install mas
 
@@ -65,7 +62,6 @@ brew install font-fira-mono
 brew install font-fira-sans
 brew install font-fira-sans-condensed 
 brew install font-fira-sans-extra-condensed 
-brew install font-ibm-plex
 brew install font-ibm-plex-mono 
 brew install font-ibm-plex-sans  
 brew install font-ibm-plex-sans-condensed   
@@ -76,7 +72,6 @@ brew install font-libre-baskerville
 brew install font-merriweather
 brew install font-merriweather-sans
 brew install font-montserrat
-brew install font-noto-mono
 brew install font-noto-sans
 brew install font-noto-serif
 brew install font-nunito
