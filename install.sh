@@ -103,3 +103,7 @@ brew install font-work-sans
 #Limpar o que restou das instalações
 brew autoremove
 brew cleanup
+
+#Remover o botão de play maldito no Finder
+defaults write com.apple.finder QLInlinePreviewMinimumSupportedSize -int 99999
+killall Finder
